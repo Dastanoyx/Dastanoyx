@@ -11,7 +11,6 @@ Here are some ideas to get you started:
 - 👯 I’m looking to collaborate with on performance-related projects.
 - 🤝 Welcom for every one who need help or colllorabotor.
 - 📫 How to reach me:  [linkedin](https://www.linkedin.com/in/yasin-ghariani-ba5687151/)
-- 😄 Pronouns: ...He/Him
 - 👾 Fun fact: ... I am half finnish
 
      
