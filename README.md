@@ -1,6 +1,6 @@
 ### Hi👋,I'm Yasin.
 
-I'm a Big Data & Business intelligence engineer,Self-Finder and Instructor from  Tunis, Tunisia. I'm passionate about sharing knowledge, creating technology to help and elevate people, documentation, software engineering, data science.
+I'm a Big Data & Business intelligence engineer,Self-Finder from Tunis, Tunisia. I'm passionate about sharing knowledge, creating technology to help and elevate people, documentation, software engineering, data science.
 
 
 Here are some ideas to get you started:
