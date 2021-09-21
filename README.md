@@ -14,5 +14,6 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...He/Him
 - 👾 Fun fact: ... I am half finnish
 
-        ![dev](https://user-images.githubusercontent.com/34582447/134110815-60fc2942-5911-415c-94df-b83e1277bcf3.jpg)
+     
+     ![dev](https://user-images.githubusercontent.com/34582447/134110815-60fc2942-5911-415c-94df-b83e1277bcf3.jpg)
         
