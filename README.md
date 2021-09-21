@@ -10,7 +10,7 @@ Here are some ideas to get you started:
 - 🎓 I’m currently a Big Data & Business intelligence engineering student @Polytech intl.
 - 👯 I’m looking to collaborate with on performance-related projects.
 - 🤝 Welcom for every one who need help or colllorabotor.
-- 📫 How to reach me:   [Linkedin](linkedin.com/in/yasin-ghariani-ba5687151)
+- 📫 How to reach me:   [Linkedin](/in/yasin-ghariani-ba5687151)
 - 😄 Pronouns: ...He/Him
 - 👾 Fun fact: ... I am half finnish
 
