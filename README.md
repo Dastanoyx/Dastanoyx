@@ -5,9 +5,10 @@ I'm a Big Data & Business intelligence engineer,Self-Finder from Tunisia. I'm pa
 
 Here are some ideas to get you started:
 
-- 🔭 I’m currently working on understanding myself ...
+- 🔭 Apart from my professional work, I'm currently focusing on understanding myself more deeply.
 - 🌱 I’m enthusiastic about Data science...
-- 🎓 I’m currently a Big Data & Business intelligence engineering student @[Polytech intl](https://pi.tn).
+- 🎓 I recently graduated from@[Polytech intl](https://pi.tn) as a Big Data & Business Intelligence Engineer.
+- 💼 I've been working as a Software Engineer for the past 12 months. My tech stack includes Angular for the front-end and Spring Boot for the back-end. .
 - 👯 I’m looking to collaborate with on performance-related projects.
 - 🤝 Welcom for every one who need help or colllorabotor.
 - 📫 How to reach me:  [linkedin](https://www.linkedin.com/in/yasin-ghariani-ba5687151/)
