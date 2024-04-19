@@ -15,6 +15,4 @@ Here are some ideas to get you started:
 Feel free to reach out if you'd like to connect or collaborate on innovative projects!
 
 
-     
-     ![dev](https://user-images.githubusercontent.com/34582447/134110815-60fc2942-5911-415c-94df-b83e1277bcf3.jpg)
         
