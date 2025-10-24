@@ -1,5 +1,56 @@
-# 💫 About Me:
-Hi 👋, I'm Yasin.<br>I'm a Big Data & Business Intelligence Engineer and Software Engineer on a Fintech project, based in Tunisia, with 3 years of experience. I'm enthusiastic about backend development, particularly in Java, and I strive to create impactful technology that elevates people's lives while continuously growing both personally and professionally.<br><br>Here’s a bit more about me:<br>🔭 I'm currently enhancing my role as a Software Engineer, focusing on innovative solutions within the Fintech industry.<br>🌱 I’m passionate about backend development and Data Science, with a strong focus on Java and performance optimization.<br>💼 As a Software Engineer, my tech stack includes Angular for front-end and Spring Boot for back-end development, where I thrive on building efficient, scalable systems.<br>👯 I’m open to collaborating on performance-related projects, particularly in Fintech and backend systems.<br>🤝 I welcome everyone who’s looking for help or collaboration.<br>📫 How to reach me: Feel free to connect with me on LinkedIn.<br>👾 Fun fact: I'm half Finnish and love integrating diverse cultural perspectives into technology.<br><br>Let's connect and collaborate on some exciting projects!
+# 👋 Hi, I'm Yassin Ghariani  
+
+### 🚀 Backend & Big Data Engineer | Fintech | Java & Spring Boot Enthusiast  
+
+I’m a backend engineer with a passion for transforming complex technical challenges into elegant, high-performance systems. My world revolves around **Java**, **Spring Boot**, and **distributed architectures**—where I craft scalable solutions that don’t just meet requirements but **exceed them**.  
+
+I thrive in the intersection of **clean code**, **smart design**, and **relentless optimization**, because great software isn’t just functional—it’s **artful**.  
+
+---
+
+### 💡 What Drives Me
+
+For me, **architecture is everything**. Whether it’s:  
+- Designing fault-tolerant **microservices**  
+- Streamlining **APIs** for lightning-fast responses  
+- Or modernizing **legacy codebases** into maintainable, future-proof systems  
+
+I love the puzzle of making systems faster, safer, and effortlessly maintainable. I’m obsessed with the *why* behind every line of code—because the best solutions emerge when you understand the problem deeper than anyone else.  
+
+---
+
+### 🧠 Beyond the Code
+
+When I’m not deep in backend logic, you’ll find me:  
+- Exploring new **tech stacks** and **system design patterns**  
+- Diving into **Data Science** and **performance optimization**  
+- Debugging my latest side project gone rogue 😅  
+
+I believe software thrives on **curiosity**, **collaboration**, and a healthy dose of **grit**—because breakthroughs happen when you’re stubborn enough to keep iterating.  
+
+---
+
+### 💼 What I Do
+
+Currently, I’m a **Big Data & Business Intelligence Engineer** and **Software Engineer** working in the **Fintech industry** in **Tunisia**, with over **3 years of experience** building efficient, scalable systems using:  
+- **Backend:** Java, Spring Boot  
+- **Frontend:** Angular  
+- **Data & BI:** Big Data pipelines, analytics-driven insights  
+
+---
+
+### 🌍 Collaboration & Growth  
+
+I’m open to collaborating on:  
+- **Performance-driven backend systems**  
+- **Fintech innovations**  
+- **Distributed architectures & scalable APIs**  
+
+📫 **Let’s connect!** You can reach me on [LinkedIn](#) — I’m always excited to share ideas, swap war stories, or build something extraordinary.  
+
+---
+
+> 🧩 *“Make it work, then make it right, then make it fast.”*  
 
 
 ## 🌐 Socials:
