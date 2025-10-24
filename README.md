@@ -32,7 +32,7 @@ I believe software thrives on **curiosity**, **collaboration**, and a healthy do
 
 ### 💼 What I Do
 
-Currently, I’m a **Big Data & Business Intelligence Engineer** and **Software Engineer** working in the **Fintech industry** in **Tunisia**, with over **3 years of experience** building efficient, scalable systems using:  
+Currently, I’m a **Software Engineer** working in the **Fintech industry** in **Tunisia**, with over **4 years of experience** building efficient, scalable systems using:  
 - **Backend:** Java, Spring Boot  
 - **Frontend:** Angular  
 - **Data:** Data Science  
