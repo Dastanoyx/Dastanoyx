@@ -46,7 +46,9 @@ I’m open to collaborating on:
 - **Fintech innovations**  
 - **Distributed architectures & scalable APIs**  
 
-📫 **Let’s connect!** You can reach me on [LinkedIn]([#](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yasin-ghariani-ba5687151/)) — I’m always excited to share ideas, swap war stories, or build something extraordinary.  
+📫 **Let’s connect!**  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yasin-ghariani-ba5687151/)  
+I’m always excited to share ideas, swap war stories, or build something extraordinary.  
 
 ---
 
