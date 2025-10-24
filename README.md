@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Yassin Ghariani  
 
-### 🚀 Backend & Big Data Engineer | Fintech | Java & Spring Boot Enthusiast  
+### 🚀 Backend Engineer | Fintech | Java & Spring Boot Enthusiast  
 
 I’m a backend engineer with a passion for transforming complex technical challenges into elegant, high-performance systems. My world revolves around **Java**, **Spring Boot**, and **distributed architectures**—where I craft scalable solutions that don’t just meet requirements but **exceed them**.  
 
