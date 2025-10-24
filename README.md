@@ -35,7 +35,7 @@ I believe software thrives on **curiosity**, **collaboration**, and a healthy do
 Currently, I’m a **Big Data & Business Intelligence Engineer** and **Software Engineer** working in the **Fintech industry** in **Tunisia**, with over **3 years of experience** building efficient, scalable systems using:  
 - **Backend:** Java, Spring Boot  
 - **Frontend:** Angular  
-- **Data & BI:** Big Data pipelines, analytics-driven insights  
+- **Data:** Data Science  
 
 ---
 
