@@ -1,14 +1,15 @@
 <!-- ═══════════════════════════════ HEADER ═══════════════════════════════ -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:007396,30:5382A1,65:F89820,100:E76F00&height=230&section=header&text=Yassin%20Ghariani&fontSize=54&fontColor=ffffff&fontAlignY=33&desc=Backend%20Engineer%20%E2%80%A2%20Java%20%7C%20Spring%20Boot%20%7C%20Fintech&descAlignY=53&descSize=18&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:007396,30:5382A1,65:F89820,100:E76F00&height=230&section=header&text=JavaBoy&fontSize=62&fontColor=ffffff&fontAlignY=32&desc=Yassin%20Ghariani%20%E2%80%94%20Backend%20Engineer%20%7C%20Java%20%7C%20Spring%20Boot%20%7C%20Fintech&descAlignY=52&descSize=18&animation=fadeIn" width="100%" />
 
 <a href="https://www.linkedin.com/in/yassinghariani/">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=900&color=F89820&background=00000000&center=true&vCenter=true&width=720&lines=public+class+Yassin+extends+BackendEngineer+%7B;Shipping+fintech+systems+that+scale+%F0%9F%8F%A6;Java+%E2%98%95+%7C+Spring+Boot+%F0%9F%8D%83+%7C+Distributed+Systems+%F0%9F%95%B8%EF%B8%8F;Make+it+work+%E2%86%92+make+it+right+%E2%86%92+make+it+fast;Build.+Learn.+Share.+Repeat.+%F0%9F%94%81" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=900&color=F89820&background=00000000&center=true&vCenter=true&width=720&lines=public+class+Yassin+extends+JavaBoy+%7B;They+call+me+JavaBoy+%E2%98%95;Shipping+fintech+systems+that+scale+%F0%9F%8F%A6;Java+%E2%98%95+%7C+Spring+Boot+%F0%9F%8D%83+%7C+Distributed+Systems+%F0%9F%95%B8%EF%B8%8F;Make+it+work+%E2%86%92+make+it+right+%E2%86%92+make+it+fast;Build.+Learn.+Share.+Repeat.+%F0%9F%94%81" alt="Typing SVG" />
 </a>
 
 <br/>
 
+<img src="https://img.shields.io/badge/%E2%98%95%20JavaBoy-F89820?style=for-the-badge&labelColor=0D1117" />
 <a href="https://www.linkedin.com/in/yassinghariani/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="https://github.com/Dastanoyx?tab=followers"><img src="https://img.shields.io/github/followers/Dastanoyx?style=for-the-badge&logo=github&logoColor=white&color=F89820&labelColor=0D1117" /></a>
 <img src="https://komarev.com/ghpvc/?username=Dastanoyx&style=for-the-badge&color=F89820&label=PROFILE+VIEWS" />
@@ -27,15 +28,16 @@
 ```java
 @Component
 @Slf4j
-public class Yassin implements SoftwareEngineer {
+public class Yassin extends JavaBoy implements SoftwareEngineer {
 
+    private static final String ALIAS    = "JavaBoy ☕";
     private static final String ROLE     = "Backend Engineer";
     private static final String DOMAIN   = "Fintech 🏦";
     private static final String LOCATION = "Tunisia 🇹🇳";
     private static final String MOTTO    = "Build. Learn. Share. Repeat.";
 
     private final Stack<String> weapons = new Stack<>(List.of(
-            "Java", "Spring Boot", "Kafka", "PostgreSQL", "Docker", "K8s"
+        "Java", "Spring Boot", "Kafka", "PostgreSQL", "Docker", "K8s"
     ));
 
     @Override
@@ -66,7 +68,8 @@ public class Yassin implements SoftwareEngineer {
 
 ## 🎯 &nbsp;Current Focus
 
-<table>
+<div align="center">
+<table align="center">
 <tr>
 <td width="33%" align="center">
 <img src="https://img.icons8.com/fluency/64/000000/services.png" width="52"/><br/>
@@ -85,6 +88,7 @@ public class Yassin implements SoftwareEngineer {
 </td>
 </tr>
 </table>
+</div>
 
 <br/>
 

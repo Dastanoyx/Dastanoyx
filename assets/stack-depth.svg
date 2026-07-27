@@ -97,8 +97,11 @@
   </g>
 
   <!-- roaming shine over the bars -->
-  <g clip-path="none" opacity=".9">
-    <rect class="shine" x="250" y="100" width="120" height="380" fill="url(#shine)"/>
+  <g opacity=".9">
+    <rect x="250" y="100" width="120" height="380" fill="url(#shine)" opacity="0">
+      <animate attributeName="x" values="140;1000" dur="3.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="3.6s" repeatCount="indefinite"/>
+    </rect>
   </g>
 
   <text x="40" y="503" class="mono tag">DEPTH OF USE — NOT A SCORE OUT OF TEN</text>

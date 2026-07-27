@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 530" width="1100" height="530" role="img" aria-label="My engineering loop and a measured optimization">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 540" width="1100" height="540" role="img" aria-label="My engineering loop and a measured optimization">
   <defs>
     <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0D1117"/><stop offset="100%" stop-color="#10151C"/>
@@ -6,127 +6,121 @@
     <linearGradient id="rail" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#5382A1"/><stop offset="55%" stop-color="#F89820"/><stop offset="100%" stop-color="#E76F00"/>
     </linearGradient>
-    <linearGradient id="slow" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#F85149"/><stop offset="100%" stop-color="#DA3633"/>
-    </linearGradient>
-    <linearGradient id="fast" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#3FB950"/><stop offset="100%" stop-color="#2EA043"/>
-    </linearGradient>
     <filter id="g2" x="-70%" y="-70%" width="240%" height="240%">
       <feGaussianBlur stdDeviation="5" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <style>
-      .lbl  { font-family: ui-sans-serif,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; }
-      .mono { font-family: ui-monospace,SFMono-Regular,"JetBrains Mono",Consolas,monospace; }
-      .h1   { fill:#F0F6FC; font-size:23px; font-weight:700; }
-      .h2   { fill:#F0F6FC; font-size:16px; font-weight:650; }
-      .sub  { fill:#8B949E; font-size:13px; }
-      .step { fill:#F0F6FC; font-size:14px; font-weight:650; }
-      .hint { fill:#8B949E; font-size:11.5px; }
-      .num  { fill:#0D1117; font-size:15px; font-weight:800; }
-      .tag  { fill:#6E7681; font-size:10px; letter-spacing:1.4px; }
-      .ring { fill:none; stroke:#21262D; stroke-width:2; }
-      .arc  { fill:none; stroke:url(#rail); stroke-width:3.4; stroke-linecap:round;
-              stroke-dasharray:150 793; animation:spin 7s linear infinite; }
-      @keyframes spin { to { stroke-dashoffset:-943; } }
-      @keyframes fade { 0%,42%{opacity:0} 52%,100%{opacity:1} }
-      @keyframes fadeout { 0%,42%{opacity:1} 52%,100%{opacity:0} }
-      .after  { animation:fade 6s ease-in-out infinite; }
-      .before { animation:fadeout 6s ease-in-out infinite; }
+      text  { font-family: -apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; }
+      .h1   { fill:#F0F6FC; font-size:27px; font-weight:700; }
+      .h2   { fill:#F0F6FC; font-size:18px; font-weight:700; }
+      .sub  { fill:#8B949E; font-size:15px; }
+      .step { fill:#F0F6FC; font-size:16px; font-weight:700; }
+      .hint { fill:#9BA5B0; font-size:13px; }
+      .num  { fill:#0D1117; font-size:16px; font-weight:800; }
+      .tag  { fill:#7D8590; font-size:12px; font-weight:600; letter-spacing:1.6px; }
+      .val  { font-size:17px; font-weight:700; }
+      .ring { fill:none; stroke:#21262D; stroke-width:2.5; }
+      .arc  { fill:none; stroke:url(#rail); stroke-width:4; stroke-linecap:round;
+              stroke-dasharray:130 700; animation:spin 7s linear infinite; }
+      @keyframes spin { to { stroke-dashoffset:-830; } }
     </style>
   </defs>
 
-  <rect width="1100" height="530" fill="url(#bg2)"/>
-  <rect x="0" y="0" width="1100" height="4" fill="url(#rail)"/>
+  <rect width="1100" height="540" fill="url(#bg2)"/>
+  <rect x="0" y="0" width="1100" height="5" fill="url(#rail)"/>
 
-  <text x="40" y="46" class="lbl h1">Make it work, then make it right, then make it fast</text>
-  <text x="40" y="68" class="lbl sub">Not a slogan — an order of operations. Correctness first, clarity second, speed last and measured.</text>
+  <text x="40" y="50" class="h1">Make it work, then make it right, then make it fast</text>
+  <text x="40" y="74" class="sub">Not a slogan — an order of operations. Correctness first, clarity second, speed last and measured.</text>
 
   <!-- ══════════ THE LOOP ══════════ -->
   <g>
-    <circle cx="290" cy="285" r="150" class="ring"/>
-    <circle cx="290" cy="285" r="150" class="arc"/>
+    <circle cx="300" cy="290" r="132" class="ring"/>
+    <circle cx="300" cy="290" r="132" class="arc"/>
 
-    <!-- orbiting head -->
-    <circle r="7" fill="#F89820" filter="url(#g2)">
+    <circle r="8" fill="#F89820" filter="url(#g2)">
       <animateMotion dur="7s" repeatCount="indefinite"
-        path="M290,135 A150,150 0 1,1 290,435 A150,150 0 1,1 290,135"/>
+        path="M300,158 A132,132 0 1,1 300,422 A132,132 0 1,1 300,158"/>
     </circle>
 
-    <text x="290" y="278" text-anchor="middle" class="mono tag">THE LOOP</text>
-    <text x="290" y="302" text-anchor="middle" class="lbl h2">never actually ends</text>
+    <text x="300" y="284" text-anchor="middle" class="tag">THE LOOP</text>
+    <text x="300" y="310" text-anchor="middle" class="h2">never actually ends</text>
 
-    <!-- nodes -->
     <g>
-      <circle cx="290" cy="135" r="26" fill="#5382A1"/><text x="290" y="141" text-anchor="middle" class="mono num">1</text>
-      <text x="290" y="82" text-anchor="middle" class="lbl step">Ask why</text>
-      <text x="290" y="99" text-anchor="middle" class="lbl hint">until the real problem shows up</text>
+      <circle cx="300" cy="158" r="24" fill="#5382A1"/><text x="300" y="164" text-anchor="middle" class="num">1</text>
+      <text x="300" y="112" text-anchor="middle" class="step">Ask why</text>
+      <text x="300" y="132" text-anchor="middle" class="hint">until the real problem shows</text>
     </g>
     <g>
-      <circle cx="420" cy="210" r="26" fill="#5382A1"/><text x="420" y="216" text-anchor="middle" class="mono num">2</text>
-      <text x="466" y="200" class="lbl step">Design</text>
-      <text x="466" y="217" class="lbl hint">boundaries, contracts, failure modes</text>
+      <circle cx="414" cy="224" r="24" fill="#5382A1"/><text x="414" y="230" text-anchor="middle" class="num">2</text>
+      <text x="450" y="218" class="step">Design</text>
+      <text x="450" y="238" class="hint">boundaries + failure modes</text>
     </g>
     <g>
-      <circle cx="420" cy="360" r="26" fill="#F89820"/><text x="420" y="366" text-anchor="middle" class="mono num">3</text>
-      <text x="466" y="350" class="lbl step">Make it work</text>
-      <text x="466" y="367" class="lbl hint">simplest thing that passes the test</text>
+      <circle cx="414" cy="356" r="24" fill="#F89820"/><text x="414" y="362" text-anchor="middle" class="num">3</text>
+      <text x="450" y="350" class="step">Make it work</text>
+      <text x="450" y="370" class="hint">simplest thing that passes</text>
     </g>
     <g>
-      <circle cx="290" cy="435" r="26" fill="#F89820"/><text x="290" y="441" text-anchor="middle" class="mono num">4</text>
-      <text x="290" y="483" text-anchor="middle" class="lbl step">Make it right</text>
-      <text x="290" y="500" text-anchor="middle" class="lbl hint">names, tests, seams, deleted code</text>
+      <circle cx="300" cy="422" r="24" fill="#F89820"/><text x="300" y="428" text-anchor="middle" class="num">4</text>
+      <text x="300" y="472" text-anchor="middle" class="step">Make it right</text>
+      <text x="300" y="492" text-anchor="middle" class="hint">names, tests, seams, deleted code</text>
     </g>
     <g>
-      <circle cx="160" cy="360" r="26" fill="#E76F00"/><text x="160" y="366" text-anchor="middle" class="mono num">5</text>
-      <text x="114" y="350" text-anchor="end" class="lbl step">Make it fast</text>
-      <text x="114" y="367" text-anchor="end" class="lbl hint">profile first, then indexes and cache</text>
+      <circle cx="186" cy="356" r="24" fill="#E76F00"/><text x="186" y="362" text-anchor="middle" class="num">5</text>
+      <text x="150" y="350" text-anchor="end" class="step">Make it fast</text>
+      <text x="150" y="370" text-anchor="end" class="hint">profile, then optimize</text>
     </g>
     <g>
-      <circle cx="160" cy="210" r="26" fill="#E76F00"/><text x="160" y="216" text-anchor="middle" class="mono num">6</text>
-      <text x="114" y="200" text-anchor="end" class="lbl step">Ship + observe</text>
-      <text x="114" y="217" text-anchor="end" class="lbl hint">metrics prove it, or it did not happen</text>
+      <circle cx="186" cy="224" r="24" fill="#E76F00"/><text x="186" y="230" text-anchor="middle" class="num">6</text>
+      <text x="150" y="218" text-anchor="end" class="step">Ship + observe</text>
+      <text x="150" y="238" text-anchor="end" class="hint">metrics prove it</text>
     </g>
   </g>
 
   <!-- ══════════ MEASURED RESULT ══════════ -->
   <g>
-    <rect x="600" y="100" width="460" height="380" rx="12" fill="#161B22" stroke="#30363D"/>
-    <text x="628" y="134" class="mono tag">WHAT THAT LOOP ACTUALLY BUYS</text>
-    <text x="628" y="162" class="lbl h2">One endpoint, one week, measured both ways</text>
+    <rect x="650" y="110" width="410" height="380" rx="12" fill="#161B22" stroke="#30363D" stroke-width="1.6"/>
+    <text x="676" y="146" class="tag">WHAT THAT LOOP BUYS</text>
+    <text x="676" y="176" class="h2">One endpoint, measured both ways</text>
 
     <!-- p95 latency -->
-    <text x="628" y="212" class="lbl hint">p95 latency</text>
-    <rect x="628" y="222" width="404" height="22" rx="6" fill="#0D1117" stroke="#21262D"/>
-    <rect x="630" y="224" height="18" rx="5" fill="url(#slow)">
-      <animate attributeName="width" values="400;400;22;22" keyTimes="0;0.42;0.62;1" dur="6s" repeatCount="indefinite"/>
+    <text x="676" y="226" class="hint">p95 latency</text>
+    <text x="1036" y="226" text-anchor="end" class="val" fill="#F85149" opacity="1">2,410 ms
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.42;0.52;1" dur="6s" repeatCount="indefinite"/></text>
+    <text x="1036" y="226" text-anchor="end" class="val" fill="#3FB950" opacity="0">118 ms
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.42;0.52;1" dur="6s" repeatCount="indefinite"/></text>
+    <rect x="676" y="236" width="360" height="24" rx="7" fill="#0D1117" stroke="#21262D"/>
+    <rect x="678" y="238" height="20" rx="6" fill="#F85149" width="356">
+      <animate attributeName="width" values="356;356;22;22" keyTimes="0;0.42;0.62;1" dur="6s" repeatCount="indefinite"/>
       <animate attributeName="fill" values="#F85149;#F85149;#3FB950;#3FB950" keyTimes="0;0.42;0.62;1" dur="6s" repeatCount="indefinite"/>
     </rect>
-    <text x="1032" y="212" text-anchor="end" class="mono step before" fill="#F85149">2,410 ms</text>
-    <text x="1032" y="212" text-anchor="end" class="mono step after" fill="#3FB950">118 ms</text>
 
-    <!-- db queries -->
-    <text x="628" y="286" class="lbl hint">DB round-trips per request</text>
-    <rect x="628" y="296" width="404" height="22" rx="6" fill="#0D1117" stroke="#21262D"/>
-    <rect x="630" y="298" height="18" rx="5" fill="#F85149">
-      <animate attributeName="width" values="352;352;14;14" keyTimes="0;0.42;0.62;1" dur="6s" repeatCount="indefinite"/>
+    <!-- db round trips -->
+    <text x="676" y="300" class="hint">DB round-trips per request</text>
+    <text x="1036" y="300" text-anchor="end" class="val" fill="#F85149" opacity="1">318
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.42;0.52;1" dur="6s" repeatCount="indefinite"/></text>
+    <text x="1036" y="300" text-anchor="end" class="val" fill="#3FB950" opacity="0">6
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.42;0.52;1" dur="6s" repeatCount="indefinite"/></text>
+    <rect x="676" y="310" width="360" height="24" rx="7" fill="#0D1117" stroke="#21262D"/>
+    <rect x="678" y="312" height="20" rx="6" fill="#F85149" width="312">
+      <animate attributeName="width" values="312;312;14;14" keyTimes="0;0.42;0.62;1" dur="6s" repeatCount="indefinite"/>
       <animate attributeName="fill" values="#F85149;#F85149;#3FB950;#3FB950" keyTimes="0;0.42;0.62;1" dur="6s" repeatCount="indefinite"/>
     </rect>
-    <text x="1032" y="286" text-anchor="end" class="mono step before" fill="#F85149">318  (N+1)</text>
-    <text x="1032" y="286" text-anchor="end" class="mono step after" fill="#3FB950">6</text>
 
     <!-- throughput -->
-    <text x="628" y="360" class="lbl hint">sustained throughput</text>
-    <rect x="628" y="370" width="404" height="22" rx="6" fill="#0D1117" stroke="#21262D"/>
-    <rect x="630" y="372" height="18" rx="5" fill="url(#fast)">
-      <animate attributeName="width" values="46;46;390;390" keyTimes="0;0.42;0.62;1" dur="6s" repeatCount="indefinite"/>
+    <text x="676" y="374" class="hint">sustained throughput</text>
+    <text x="1036" y="374" text-anchor="end" class="val" fill="#8B949E" opacity="1">180 rps
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.42;0.52;1" dur="6s" repeatCount="indefinite"/></text>
+    <text x="1036" y="374" text-anchor="end" class="val" fill="#3FB950" opacity="0">4,200 rps
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.42;0.52;1" dur="6s" repeatCount="indefinite"/></text>
+    <rect x="676" y="384" width="360" height="24" rx="7" fill="#0D1117" stroke="#21262D"/>
+    <rect x="678" y="386" height="20" rx="6" fill="#3FB950" width="40">
+      <animate attributeName="width" values="40;40;348;348" keyTimes="0;0.42;0.62;1" dur="6s" repeatCount="indefinite"/>
     </rect>
-    <text x="1032" y="360" text-anchor="end" class="mono step before" fill="#8B949E">180 rps</text>
-    <text x="1032" y="360" text-anchor="end" class="mono step after" fill="#3FB950">4,200 rps</text>
 
-    <line x1="628" y1="418" x2="1032" y2="418" stroke="#21262D"/>
-    <text x="628" y="446" class="mono hint">no rewrite · no new infra</text>
-    <text x="628" y="464" class="mono hint" fill="#F89820">just profiling, batching, an index and a cache that expires honestly</text>
+    <line x1="676" y1="432" x2="1036" y2="432" stroke="#21262D"/>
+    <text x="676" y="456" class="hint">no rewrite · no new infrastructure</text>
+    <text x="676" y="476" class="hint" fill="#F89820">just profiling, batching, an index and an honest cache</text>
   </g>
 </svg>
