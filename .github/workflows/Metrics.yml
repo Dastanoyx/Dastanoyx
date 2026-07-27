@@ -1,26 +1,11 @@
-# Save at: .github/workflows/metrics.yml
-#
-# WHY: the public github-readme-stats.vercel.app instance is rate-limited and
-# frequently returns blanks. This action runs INSIDE your repo, renders SVGs and
-# commits them to assets/. GitHub serves your own files — nothing to rate limit.
-#
-# SETUP (5 min):
-#   1. github.com/settings/tokens -> "Tokens (classic)" -> Generate new token
-#      Scopes: public_repo  (add read:user; add repo if you want private stats)
-#      NOTE: it must be a CLASSIC token — fine-grained tokens are not supported.
-#   2. Your repo -> Settings -> Secrets and variables -> Actions -> New secret
-#      Name: METRICS_TOKEN     Value: <the token>
-#   3. Settings -> Actions -> General -> Workflow permissions -> Read and write
-#   4. Actions tab -> "Metrics" -> Run workflow (first run creates the files)
-
 name: Metrics
 
 on:
   schedule:
-    - cron: "0 4 * * *"      # daily at 04:00 UTC
+    - cron: "0 4 * * *"
   workflow_dispatch:
   push:
-    branches: [main, master]
+    branches: [main]
 
 jobs:
   metrics:
@@ -28,7 +13,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      # ── Overview card: activity, community, repos ────────────────────────
+      # ── 1. Overview: activity, community, repos ──────────────────────────
       - name: Overview
         uses: lowlighter/metrics@latest
         with:
@@ -39,7 +24,7 @@ jobs:
           config_display: large
           base_indepth: yes
 
-      # ── Languages actually used, weighted by recent commits ──────────────
+      # ── 2. Languages ─────────────────────────────────────────────────────
       - name: Languages
         uses: lowlighter/metrics@latest
         with:
@@ -51,10 +36,12 @@ jobs:
           plugin_languages_indepth: yes
           plugin_languages_limit: 8
           plugin_languages_details: bytes-size, percentage
-          plugin_languages_sections: most-used, recently-used
-          plugin_languages_recent_days: 30
+          plugin_languages_sections: most-used
+          plugin_languages_ignored: jupyter notebook, html, css, scss, dockerfile, shell, makefile
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_colors: java:F89820
 
-      # ── 3D isometric contribution calendar (last 180 days) ───────────────
+      # ── 3. Isometric contribution calendar ───────────────────────────────
       - name: Isocalendar
         uses: lowlighter/metrics@latest
         with:
@@ -63,31 +50,17 @@ jobs:
           base: ""
           config_timezone: Africa/Tunis
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
+          plugin_isocalendar_duration: full-year
 
-      # ── Achievements (replaces the flaky github-profile-trophy card) ─────
-      - name: Achievements
+      - name: Lines and people
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: assets/metrics.achievements.svg
+          filename: assets/metrics.lines.svg
           base: ""
           config_timezone: Africa/Tunis
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: C
-          plugin_achievements_secrets: yes
-
-      # ── Coding habits: when and how you commit ───────────────────────────
-      - name: Habits
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          filename: assets/metrics.habits.svg
-          base: ""
-          config_timezone: Africa/Tunis
-          plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
+          plugin_lines: yes
+          plugin_lines_sections: base
+          plugin_people: yes
+          plugin_people_limit: 24
+          plugin_people_types: followers, following

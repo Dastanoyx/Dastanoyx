@@ -35,7 +35,7 @@ public class Yassin implements SoftwareEngineer {
     private static final String MOTTO    = "Build. Learn. Share. Repeat.";
 
     private final Stack<String> weapons = new Stack<>(List.of(
-        "Java", "Spring Boot", "Kafka", "PostgreSQL", "Docker", "K8s"
+            "Java", "Spring Boot", "Kafka", "PostgreSQL", "Docker", "K8s"
     ));
 
     @Override
@@ -240,20 +240,8 @@ pie showData
 <br/><br/>
 
 <img width="49%" src="https://raw.githubusercontent.com/Dastanoyx/Dastanoyx/main/assets/metrics.isocalendar.svg" alt="Contribution calendar" />
-<img width="49%" src="https://raw.githubusercontent.com/Dastanoyx/Dastanoyx/main/assets/metrics.habits.svg" alt="Coding habits" />
+<img width="49%" src="https://raw.githubusercontent.com/Dastanoyx/Dastanoyx/main/assets/metrics.lines.svg" alt="Lines of code and people" />
 
-<br/><br/>
-
-<img width="62%" src="https://streak-stats.demolab.com?user=Dastanoyx&hide_border=true&background=0D1117&stroke=F89820&ring=F89820&fire=E76F00&currStreakLabel=F89820&sideLabels=C9D1D9&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9" alt="Streak" />
-
-</div>
-
-<br/>
-
-## 🏆 &nbsp;Trophy Cabinet
-
-<div align="center">
-  <img width="80%" src="https://raw.githubusercontent.com/Dastanoyx/Dastanoyx/main/assets/metrics.achievements.svg" alt="Achievements" />
 </div>
 
 <br/>
