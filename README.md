@@ -1,77 +1,318 @@
-# 👋 Hi, I'm Yassin Ghariani  
+<!-- ═══════════════════════════════ HEADER ═══════════════════════════════ -->
+<div align="center">
 
-### 🚀 Backend Engineer | Fintech | Java & Spring Boot Enthusiast  
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ED8B00,50:F89820,100:0D1117&height=220&section=header&text=Yassin%20Ghariani&fontSize=52&fontColor=ffffff&fontAlignY=34&desc=Backend%20Engineer%20%E2%80%A2%20Java%20%7C%20Spring%20Boot%20%7C%20Fintech&descAlignY=54&descSize=18&animation=fadeIn" width="100%" />
 
-I’m a backend engineer with a passion for transforming complex technical challenges into elegant, high-performance systems. My world revolves around **Java**, **Spring Boot**, and **distributed architectures**—where I craft scalable solutions that don’t just meet requirements but **exceed them**.  
+<a href="https://www.linkedin.com/in/yasin-ghariani-ba5687151/">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=900&color=ED8B00&center=true&vCenter=true&width=700&lines=public+class+Yassin+extends+BackendEngineer+%7B;4%2B+years+shipping+fintech+systems+%F0%9F%8F%A6;Java+%E2%98%95+%7C+Spring+Boot+%F0%9F%8D%83+%7C+Distributed+Systems+%F0%9F%95%B8%EF%B8%8F;Make+it+work+%E2%86%92+make+it+right+%E2%86%92+make+it+fast;Build.+Learn.+Share.+Repeat.+%F0%9F%94%81" alt="Typing SVG" />
+</a>
 
-I thrive in the intersection of **clean code**, **smart design**, and **relentless optimization**, because great software isn’t just functional—it’s **artful**.  
+<br/>
 
----
+<a href="https://www.linkedin.com/in/yasin-ghariani-ba5687151/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://github.com/Dastanoyx?tab=followers"><img src="https://img.shields.io/github/followers/Dastanoyx?style=for-the-badge&logo=github&logoColor=white&color=ED8B00&labelColor=0D1117" /></a>
+<img src="https://komarev.com/ghpvc/?username=Dastanoyx&style=for-the-badge&color=ED8B00&label=PROFILE+VIEWS" />
+<img src="https://img.shields.io/badge/Tunisia-%F0%9F%87%B9%F0%9F%87%B3-E70013?style=for-the-badge&labelColor=0D1117" />
 
-### 💡 What Drives Me
+</div>
 
-For me, **architecture is everything**. Whether it’s:  
-- Designing fault-tolerant **microservices**  
-- Streamlining **APIs** for lightning-fast responses  
-- Or modernizing **legacy codebases** into maintainable, future-proof systems  
+<br/>
 
-I love the puzzle of making systems faster, safer, and effortlessly maintainable. I’m obsessed with the *why* behind every line of code—because the best solutions emerge when you understand the problem deeper than anyone else.  
+<!-- ═══════════════════════════════ ABOUT ═══════════════════════════════ -->
 
----
+## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="28"> &nbsp;`whoami`
 
-### 🧠 Beyond the Code
+<img align="right" alt="coding" width="380" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" />
 
-When I’m not deep in backend logic, you’ll find me:  
-- Exploring new **tech stacks** and **system design patterns**  
-- Diving into **Data Science** and **performance optimization**  
-- Debugging my latest side project gone rogue 😅  
+```java
+@Component
+@Slf4j
+public class Yassin implements SoftwareEngineer {
 
-I believe software thrives on **curiosity**, **collaboration**, and a healthy dose of **grit**—because breakthroughs happen when you’re stubborn enough to keep iterating.  
+    private static final String ROLE     = "Backend Engineer";
+    private static final String DOMAIN   = "Fintech 🏦";
+    private static final String LOCATION = "Tunisia 🇹🇳";
+    private static final int    XP_YEARS = 4;
 
----
+    private final Stack<String> weapons = new Stack<>(List.of(
+        "Java", "Spring Boot", "Kafka", "PostgreSQL", "Docker", "K8s"
+    ));
 
-### 💼 What I Do
+    @Override
+    public void dailyRoutine() {
+        while (curious) {
+            build();      // scalable, fault-tolerant systems
+            learn();      // new stacks & design patterns
+            share();      // ideas, war stories, code reviews
+            refactor();   // because "good enough" never is
+        }
+    }
 
-Currently, I’m a **Software Engineer** working in the **Fintech industry** in **Tunisia**, with over **4 years of experience** building efficient, scalable systems using:  
-- **Backend:** Java, Spring Boot  
-- **Frontend:** Angular  
-- **Data:** Data Science  
+    @Scheduled(cron = "0 0 3 * * *")
+    public void debugSideProjectGoneRogue() {
+        log.warn("It worked on my machine 😅");
+    }
+}
+```
 
----
+<br clear="right"/>
 
-### 🌍 Collaboration & Growth  
+> I'm a backend engineer who turns messy, complex problems into systems that are **fast, safe and boring to operate** — the highest compliment infrastructure can receive.
+> I live at the intersection of **clean code**, **smart design** and **relentless optimization**, and I'm obsessed with the *why* behind every line.
 
-I’m open to collaborating on:  
-- **Performance-driven backend systems**  
-- **Fintech innovations**  
-- **Distributed architectures & scalable APIs**  
+<br/>
 
-📫 **Let’s connect!**  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yasin-ghariani-ba5687151/)  
-I’m always excited to share ideas, swap war stories, or build something extraordinary.  
+<!-- ═══════════════════════════════ FOCUS ═══════════════════════════════ -->
 
----
+## 🎯 &nbsp;Current Focus
 
-> 🧩 *“Make it work, then make it right, then make it fast.”*  
+<table>
+<tr>
+<td width="33%" align="center">
+<img src="https://img.icons8.com/fluency/64/000000/services.png" width="52"/><br/>
+<b>🔭 Building</b><br/>
+<sub>Fault-tolerant microservices &<br/>event-driven fintech pipelines</sub>
+</td>
+<td width="33%" align="center">
+<img src="https://img.icons8.com/fluency/64/000000/speed.png" width="52"/><br/>
+<b>🌱 Learning</b><br/>
+<sub>System design at scale,<br/>JVM tuning & observability</sub>
+</td>
+<td width="33%" align="center">
+<img src="https://img.icons8.com/fluency/64/000000/handshake.png" width="52"/><br/>
+<b>👯 Collaborating on</b><br/>
+<sub>Performance-driven backends,<br/>scalable & resilient APIs</sub>
+</td>
+</tr>
+</table>
 
+<br/>
 
-# 💻 Tech Stack:
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=plastic&logo=openjdk&logoColor=white) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=plastic&logo=c&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=plastic&logo=html5&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=plastic&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=plastic&logo=javascript&logoColor=%23F7DF1E) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=plastic&logo=css3&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=plastic&logo=python&logoColor=ffdd54) ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=plastic&logo=angular&logoColor=white) ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-000?style=plastic&logo=apachekafka) ![Apache Hive](https://img.shields.io/badge/Apache%20Hive-FDEE21?style=plastic&logo=apachehive&logoColor=black) ![Apache Hadoop](https://img.shields.io/badge/Apache%20Hadoop-66CCFF?style=plastic&logo=apachehadoop&logoColor=black) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=plastic&logo=express&logoColor=%2361DAFB) ![JWT](https://img.shields.io/badge/JWT-black?style=plastic&logo=JSON%20web%20tokens) ![RabbitMQ](https://img.shields.io/badge/rabbitmq-FF6600?style=plastic&logo=rabbitmq&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=plastic&logo=tailwind-css&logoColor=white) ![Thymeleaf](https://img.shields.io/badge/Thymeleaf-%23005C0F.svg?style=plastic&logo=Thymeleaf&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=plastic&logo=apache&logoColor=white) ![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=plastic&logo=Apache%20Maven&logoColor=white) ![Apache Tomcat](https://img.shields.io/badge/apache%20tomcat-%23F8DC75.svg?style=plastic&logo=apache-tomcat&logoColor=black) ![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=plastic&logo=jenkins&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=plastic&logo=nginx&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=plastic&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=plastic&logo=mysql&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=plastic&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=plastic&logo=redis&logoColor=white) ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=plastic&logo=Hibernate&logoColor=white) ![Adobe Illustrator](https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?style=plastic&logo=adobe%20illustrator&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=plastic&logo=adobe%20photoshop&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=plastic&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=plastic&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=plastic&logo=pandas&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=plastic&logo=scikit-learn&logoColor=white) ![GitLab CI](https://img.shields.io/badge/gitlab%20CI-%23181717.svg?style=plastic&logo=gitlab&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=plastic&logo=githubactions&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=plastic&logo=gitlab&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=plastic&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=plastic&logo=git&logoColor=white) ![Bitbucket](https://img.shields.io/badge/bitbucket-%230047B3.svg?style=plastic&logo=bitbucket&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=plastic&logo=postman&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=plastic&logo=notion&logoColor=white) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=plastic&logo=jira&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=plastic&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=plastic&logo=kubernetes&logoColor=white) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=plastic&logo=powerbi&logoColor=black) ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=plastic&logo=swagger&logoColor=white) ![SonarQube](https://img.shields.io/badge/SonarQube-black?style=plastic&logo=sonarqube&logoColor=4E9BCD) ![SonarLint](https://img.shields.io/badge/SonarLint-CB2029?style=plastic&logo=SONARLINT&logoColor=white) ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=plastic&logo=spring&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Dastanoyx&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=Dastanoyx&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Dastanoyx&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+<!-- ═══════════════════════════ ARCHITECTURE ════════════════════════════ -->
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=Dastanoyx&theme=radical&no-frame=true&no-bg=true&margin-w=4)
+## 🏗️ &nbsp;How I Think About Systems
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+*The shape of almost every service I build — small, observable, hard to knock over.*
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=Dastanoyx&limit=5&theme=dark&combine_all_yearly_contributions=true)
+```mermaid
+flowchart LR
+    C(["🌐 Client / Angular"]) --> GW["🚪 API Gateway<br/>auth · rate-limit · routing"]
 
----
-[![](https://visitcount.itsvg.in/api?id=Dastanoyx&icon=0&color=0)](https://visitcount.itsvg.in)
+    GW --> A["☕ Payments Service<br/>Spring Boot"]
+    GW --> B["☕ Accounts Service<br/>Spring Boot"]
+    GW --> D["☕ Ledger Service<br/>Spring Boot"]
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+    A -- publish --> K{{"📨 Kafka<br/>event backbone"}}
+    B -- publish --> K
+    K -- consume --> D
+    K -- consume --> N["🔔 Notification<br/>Service"]
+
+    A --> R[("⚡ Redis<br/>cache")]
+    B --> P[("🐘 PostgreSQL")]
+    D --> P
+    N --> M[("🍃 MongoDB")]
+
+    A -.metrics.-> O["📊 Observability<br/>logs · traces · alerts"]
+    B -.metrics.-> O
+    D -.metrics.-> O
+
+    classDef svc fill:#ED8B00,stroke:#0D1117,stroke-width:2px,color:#0D1117,font-weight:bold
+    classDef infra fill:#1F6FEB,stroke:#0D1117,stroke-width:2px,color:#fff
+    classDef store fill:#2EA043,stroke:#0D1117,stroke-width:2px,color:#fff
+    class A,B,D,N svc
+    class GW,K,O infra
+    class R,P,M store
+```
+
+<br/>
+
+## 🔁 &nbsp;My Engineering Loop
+
+```mermaid
+sequenceDiagram
+    autonumber
+    participant P as 🧩 Problem
+    participant Y as 👨‍💻 Me
+    participant C as ☕ Code
+    participant M as 📈 Metrics
+
+    P->>Y: "This endpoint takes 2.4s"
+    Y->>Y: Ask *why* until it hurts
+    Y->>C: Make it work
+    C-->>M: Baseline captured
+    Y->>C: Make it right (tests, boundaries, naming)
+    Y->>C: Make it fast (indexes, cache, async)
+    M-->>Y: 2.4s → 120ms ✅
+    Y->>P: Ship it, then document it
+    Note over Y,M: Repeat forever — curiosity + grit
+```
+
+<br/>
+
+<!-- ═══════════════════════════ TECH STACK ═════════════════════════════ -->
+
+## 🧰 &nbsp;Tech Stack
+
+<div align="center">
+
+**☕ Core Languages**
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+
+**🍃 Backend & Frameworks**
+
+![Spring](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
+![Thymeleaf](https://img.shields.io/badge/Thymeleaf-005C0F?style=for-the-badge&logo=thymeleaf&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=61DAFB)
+
+**📨 Messaging & Big Data**
+
+![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
+![Hadoop](https://img.shields.io/badge/Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black)
+![Hive](https://img.shields.io/badge/Hive-FDEE21?style=for-the-badge&logo=apachehive&logoColor=black)
+
+**🗄️ Databases**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DD0031?style=for-the-badge&logo=redis&logoColor=white)
+
+**🚀 DevOps & Infrastructure**
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2671E5?style=for-the-badge&logo=githubactions&logoColor=white)
+![GitLab CI](https://img.shields.io/badge/GitLab_CI-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![Tomcat](https://img.shields.io/badge/Tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=black)
+
+**📊 Data Science & Quality**
+
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white)
+
+**🎨 Frontend & Tools**
+
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
+![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
+![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
+
+</div>
+
+<br/>
+
+<!-- ══════════════════════════ WHERE TIME GOES ══════════════════════════ -->
+
+## ⏳ &nbsp;Where My Engineering Time Actually Goes
+
+```mermaid
+pie showData
+    title A realistic sprint 😅
+    "Designing & architecting" : 25
+    "Writing code" : 30
+    "Debugging & profiling" : 20
+    "Code review & sharing" : 15
+    "Renaming variables" : 10
+```
+
+<br/>
+
+<!-- ═══════════════════════════ GITHUB STATS ════════════════════════════ -->
+
+## 📊 &nbsp;GitHub Analytics
+
+<div align="center">
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Dastanoyx&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&title_color=ED8B00&icon_color=ED8B00&text_color=C9D1D9&bg_color=0D1117&rank_icon=github" />
+<img width="49%" src="https://streak-stats.demolab.com?user=Dastanoyx&hide_border=true&background=0D1117&stroke=ED8B00&ring=ED8B00&fire=F89820&currStreakLabel=ED8B00&sideLabels=C9D1D9&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9" />
+
+<br/><br/>
+
+<img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dastanoyx&layout=compact&langs_count=8&hide_border=true&title_color=ED8B00&text_color=C9D1D9&bg_color=0D1117" />
+<img width="55%" src="https://github-contributor-stats.vercel.app/api?username=Dastanoyx&limit=5&theme=github_dark&combine_all_yearly_contributions=true&hide_border=true" />
+
+<br/><br/>
+
+<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=Dastanoyx&bg_color=0D1117&color=ED8B00&line=F89820&point=FFFFFF&area=true&area_color=ED8B00&hide_border=true&custom_title=Contribution%20Activity" />
+
+</div>
+
+<br/>
+
+## 🏆 &nbsp;Trophy Cabinet
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Dastanoyx&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" width="98%" />
+</div>
+
+<br/>
+
+<!-- ══════════════════════════════ SNAKE ═══════════════════════════════ -->
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dastanoyx/Dastanoyx/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Dastanoyx/Dastanoyx/output/github-snake.svg" />
+    <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/Dastanoyx/Dastanoyx/output/github-snake.svg" width="98%" />
+  </picture>
+</div>
+
+<br/>
+
+<!-- ═══════════════════════════════ QUOTE ══════════════════════════════ -->
+
+<div align="center">
+
+### ✍️ Dev Wisdom of the Day
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&border=true" />
+
+<br/><br/>
+
+> ### 🧩 *"Make it work, then make it right, then make it fast."*
+
+</div>
+
+<br/>
+
+<!-- ═══════════════════════════════ CONNECT ════════════════════════════ -->
+
+## 🤝 &nbsp;Let's Build Something
+
+<div align="center">
+
+I'm always up for swapping war stories, reviewing an ugly service, or arguing about whether that really needed to be a microservice.
+
+<a href="https://www.linkedin.com/in/yasin-ghariani-ba5687151/">
+  <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="42" />
+</a>
+&nbsp;
+<a href="https://github.com/Dastanoyx">
+  <img src="https://img.shields.io/badge/Follow_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="42" />
+</a>
+
+<br/><br/>
+
+⭐️ *If any of my repos help you, a star goes a long way.*
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:F89820,100:ED8B00&height=140&section=footer" width="100%" />
+
+</div>
