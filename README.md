@@ -4,7 +4,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ED8B00,50:F89820,100:0D1117&height=220&section=header&text=Yassin%20Ghariani&fontSize=52&fontColor=ffffff&fontAlignY=34&desc=Backend%20Engineer%20%E2%80%A2%20Java%20%7C%20Spring%20Boot%20%7C%20Fintech&descAlignY=54&descSize=18&animation=fadeIn" width="100%" />
 
 <a href="https://www.linkedin.com/in/yasin-ghariani-ba5687151/">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=900&color=ED8B00&center=true&vCenter=true&width=700&lines=public+class+Yassin+extends+BackendEngineer+%7B;4%2B+years+shipping+fintech+systems+%F0%9F%8F%A6;Java+%E2%98%95+%7C+Spring+Boot+%F0%9F%8D%83+%7C+Distributed+Systems+%F0%9F%95%B8%EF%B8%8F;Make+it+work+%E2%86%92+make+it+right+%E2%86%92+make+it+fast;Build.+Learn.+Share.+Repeat.+%F0%9F%94%81" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=900&color=ED8B00&center=true&vCenter=true&width=700&lines=public+class+Yassin+extends+BackendEngineer+%7B;Shipping+fintech+systems+that+scale+%F0%9F%8F%A6;Java+%E2%98%95+%7C+Spring+Boot+%F0%9F%8D%83+%7C+Distributed+Systems+%F0%9F%95%B8%EF%B8%8F;Make+it+work+%E2%86%92+make+it+right+%E2%86%92+make+it+fast;Build.+Learn.+Share.+Repeat.+%F0%9F%94%81" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -32,7 +32,7 @@ public class Yassin implements SoftwareEngineer {
     private static final String ROLE     = "Backend Engineer";
     private static final String DOMAIN   = "Fintech 🏦";
     private static final String LOCATION = "Tunisia 🇹🇳";
-    private static final int    XP_YEARS = 4;
+    private static final String MOTTO    = "Build. Learn. Share. Repeat.";
 
     private final Stack<String> weapons = new Stack<>(List.of(
         "Java", "Spring Boot", "Kafka", "PostgreSQL", "Docker", "K8s"
