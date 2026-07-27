@@ -9,7 +9,7 @@
 
 <br/>
 
-<a href="https://www.linkedin.com/in/yasin-ghariani-ba5687151/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://www.linkedin.com/in/yassinghariani/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="https://github.com/Dastanoyx?tab=followers"><img src="https://img.shields.io/github/followers/Dastanoyx?style=for-the-badge&logo=github&logoColor=white&color=ED8B00&labelColor=0D1117" /></a>
 <img src="https://komarev.com/ghpvc/?username=Dastanoyx&style=for-the-badge&color=ED8B00&label=PROFILE+VIEWS" />
 <img src="https://img.shields.io/badge/Tunisia-%F0%9F%87%B9%F0%9F%87%B3-E70013?style=for-the-badge&labelColor=0D1117" />
