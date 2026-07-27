@@ -1,17 +1,17 @@
 <!-- ═══════════════════════════════ HEADER ═══════════════════════════════ -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ED8B00,50:F89820,100:0D1117&height=220&section=header&text=Yassin%20Ghariani&fontSize=52&fontColor=ffffff&fontAlignY=34&desc=Backend%20Engineer%20%E2%80%A2%20Java%20%7C%20Spring%20Boot%20%7C%20Fintech&descAlignY=54&descSize=18&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:007396,30:5382A1,65:F89820,100:E76F00&height=230&section=header&text=Yassin%20Ghariani&fontSize=54&fontColor=ffffff&fontAlignY=33&desc=Backend%20Engineer%20%E2%80%A2%20Java%20%7C%20Spring%20Boot%20%7C%20Fintech&descAlignY=53&descSize=18&animation=fadeIn" width="100%" />
 
-<a href="https://www.linkedin.com/in/yasin-ghariani-ba5687151/">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=900&color=ED8B00&center=true&vCenter=true&width=700&lines=public+class+Yassin+extends+BackendEngineer+%7B;Shipping+fintech+systems+that+scale+%F0%9F%8F%A6;Java+%E2%98%95+%7C+Spring+Boot+%F0%9F%8D%83+%7C+Distributed+Systems+%F0%9F%95%B8%EF%B8%8F;Make+it+work+%E2%86%92+make+it+right+%E2%86%92+make+it+fast;Build.+Learn.+Share.+Repeat.+%F0%9F%94%81" alt="Typing SVG" />
+<a href="https://www.linkedin.com/in/yassinghariani/">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=900&color=F89820&background=00000000&center=true&vCenter=true&width=720&lines=public+class+Yassin+extends+BackendEngineer+%7B;Shipping+fintech+systems+that+scale+%F0%9F%8F%A6;Java+%E2%98%95+%7C+Spring+Boot+%F0%9F%8D%83+%7C+Distributed+Systems+%F0%9F%95%B8%EF%B8%8F;Make+it+work+%E2%86%92+make+it+right+%E2%86%92+make+it+fast;Build.+Learn.+Share.+Repeat.+%F0%9F%94%81" alt="Typing SVG" />
 </a>
 
 <br/>
 
 <a href="https://www.linkedin.com/in/yassinghariani/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="https://github.com/Dastanoyx?tab=followers"><img src="https://img.shields.io/github/followers/Dastanoyx?style=for-the-badge&logo=github&logoColor=white&color=ED8B00&labelColor=0D1117" /></a>
-<img src="https://komarev.com/ghpvc/?username=Dastanoyx&style=for-the-badge&color=ED8B00&label=PROFILE+VIEWS" />
+<a href="https://github.com/Dastanoyx?tab=followers"><img src="https://img.shields.io/github/followers/Dastanoyx?style=for-the-badge&logo=github&logoColor=white&color=F89820&labelColor=0D1117" /></a>
+<img src="https://komarev.com/ghpvc/?username=Dastanoyx&style=for-the-badge&color=F89820&label=PROFILE+VIEWS" />
 <img src="https://img.shields.io/badge/Tunisia-%F0%9F%87%B9%F0%9F%87%B3-E70013?style=for-the-badge&labelColor=0D1117" />
 
 </div>
@@ -92,41 +92,26 @@ public class Yassin implements SoftwareEngineer {
 
 ## 🏗️ &nbsp;How I Think About Systems
 
-*The shape of almost every service I build — small, observable, hard to knock over.*
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Dastanoyx/Dastanoyx/main/assets/architecture.svg" width="100%" alt="Event-driven fintech architecture" />
+</div>
 
-```mermaid
-flowchart LR
-    C(["🌐 Client / Angular"]) --> GW["🚪 API Gateway<br/>auth · rate-limit · routing"]
-
-    GW --> A["☕ Payments Service<br/>Spring Boot"]
-    GW --> B["☕ Accounts Service<br/>Spring Boot"]
-    GW --> D["☕ Ledger Service<br/>Spring Boot"]
-
-    A -- publish --> K{{"📨 Kafka<br/>event backbone"}}
-    B -- publish --> K
-    K -- consume --> D
-    K -- consume --> N["🔔 Notification<br/>Service"]
-
-    A --> R[("⚡ Redis<br/>cache")]
-    B --> P[("🐘 PostgreSQL")]
-    D --> P
-    N --> M[("🍃 MongoDB")]
-
-    A -.metrics.-> O["📊 Observability<br/>logs · traces · alerts"]
-    B -.metrics.-> O
-    D -.metrics.-> O
-
-    classDef svc fill:#ED8B00,stroke:#0D1117,stroke-width:2px,color:#0D1117,font-weight:bold
-    classDef infra fill:#1F6FEB,stroke:#0D1117,stroke-width:2px,color:#fff
-    classDef store fill:#2EA043,stroke:#0D1117,stroke-width:2px,color:#fff
-    class A,B,D,N svc
-    class GW,K,O infra
-    class R,P,M store
-```
+<sub>☕ Spring Boot services publish, Kafka carries, consumers react. Everything is idempotent, everything is traced, and no two services share a database.</sub>
 
 <br/>
 
+<!-- ═══════════════════════════ ENGINEERING LOOP ════════════════════════ -->
+
 ## 🔁 &nbsp;My Engineering Loop
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Dastanoyx/Dastanoyx/main/assets/engineering-loop.svg" width="100%" alt="Engineering loop and a measured optimization" />
+</div>
+
+<details>
+<summary><b>📖 The same loop, told as a request lifecycle</b></summary>
+
+<br/>
 
 ```mermaid
 sequenceDiagram
@@ -141,11 +126,13 @@ sequenceDiagram
     Y->>C: Make it work
     C-->>M: Baseline captured
     Y->>C: Make it right (tests, boundaries, naming)
-    Y->>C: Make it fast (indexes, cache, async)
-    M-->>Y: 2.4s → 120ms ✅
+    Y->>C: Make it fast (indexes, batching, cache)
+    M-->>Y: 2.4s → 118ms ✅
     Y->>P: Ship it, then document it
     Note over Y,M: Repeat forever — curiosity + grit
 ```
+
+</details>
 
 <br/>
 
@@ -154,10 +141,16 @@ sequenceDiagram
 ## 🧰 &nbsp;Tech Stack
 
 <div align="center">
+  <img src="https://raw.githubusercontent.com/Dastanoyx/Dastanoyx/main/assets/stack-depth.svg" width="100%" alt="Stack depth chart" />
+</div>
+
+<br/>
+
+<div align="center">
 
 **☕ Core Languages**
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Java](https://img.shields.io/badge/Java-F89820?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
@@ -241,17 +234,17 @@ pie showData
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Dastanoyx&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&title_color=ED8B00&icon_color=ED8B00&text_color=C9D1D9&bg_color=0D1117&rank_icon=github" />
-<img width="49%" src="https://streak-stats.demolab.com?user=Dastanoyx&hide_border=true&background=0D1117&stroke=ED8B00&ring=ED8B00&fire=F89820&currStreakLabel=ED8B00&sideLabels=C9D1D9&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9" />
+<img width="49%" src="https://raw.githubusercontent.com/Dastanoyx/Dastanoyx/main/assets/metrics.overview.svg" alt="Overview" />
+<img width="49%" src="https://raw.githubusercontent.com/Dastanoyx/Dastanoyx/main/assets/metrics.languages.svg" alt="Languages" />
 
 <br/><br/>
 
-<img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dastanoyx&layout=compact&langs_count=8&hide_border=true&title_color=ED8B00&text_color=C9D1D9&bg_color=0D1117" />
-<img width="55%" src="https://github-contributor-stats.vercel.app/api?username=Dastanoyx&limit=5&theme=github_dark&combine_all_yearly_contributions=true&hide_border=true" />
+<img width="49%" src="https://raw.githubusercontent.com/Dastanoyx/Dastanoyx/main/assets/metrics.isocalendar.svg" alt="Contribution calendar" />
+<img width="49%" src="https://raw.githubusercontent.com/Dastanoyx/Dastanoyx/main/assets/metrics.habits.svg" alt="Coding habits" />
 
 <br/><br/>
 
-<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=Dastanoyx&bg_color=0D1117&color=ED8B00&line=F89820&point=FFFFFF&area=true&area_color=ED8B00&hide_border=true&custom_title=Contribution%20Activity" />
+<img width="62%" src="https://streak-stats.demolab.com?user=Dastanoyx&hide_border=true&background=0D1117&stroke=F89820&ring=F89820&fire=E76F00&currStreakLabel=F89820&sideLabels=C9D1D9&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9" alt="Streak" />
 
 </div>
 
@@ -260,7 +253,7 @@ pie showData
 ## 🏆 &nbsp;Trophy Cabinet
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Dastanoyx&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" width="98%" />
+  <img width="80%" src="https://raw.githubusercontent.com/Dastanoyx/Dastanoyx/main/assets/metrics.achievements.svg" alt="Achievements" />
 </div>
 
 <br/>
@@ -301,7 +294,7 @@ pie showData
 
 I'm always up for swapping war stories, reviewing an ugly service, or arguing about whether that really needed to be a microservice.
 
-<a href="https://www.linkedin.com/in/yasin-ghariani-ba5687151/">
+<a href="https://www.linkedin.com/in/yassinghariani/">
   <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="42" />
 </a>
 &nbsp;
@@ -313,6 +306,6 @@ I'm always up for swapping war stories, reviewing an ugly service, or arguing ab
 
 ⭐️ *If any of my repos help you, a star goes a long way.*
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:F89820,100:ED8B00&height=140&section=footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:E76F00,35:F89820,70:5382A1,100:007396&height=140&section=footer" width="100%" />
 
 </div>
