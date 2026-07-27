@@ -234,13 +234,24 @@ pie showData
 
 <div align="center">
 
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Dastanoyx&bg_color=0D1117&color=F89820&line=E76F00&point=FFFFFF&area=true&area_color=F89820&hide_border=true&radius=10&custom_title=Contribution%20Activity%20%E2%80%94%20last%2031%20days" alt="Contribution activity graph" />
+
+<br/><br/>
+
 <img width="49%" src="https://raw.githubusercontent.com/Dastanoyx/Dastanoyx/main/assets/metrics.overview.svg" alt="Overview" />
 <img width="49%" src="https://raw.githubusercontent.com/Dastanoyx/Dastanoyx/main/assets/metrics.languages.svg" alt="Languages" />
 
 <br/><br/>
 
-<img width="49%" src="https://raw.githubusercontent.com/Dastanoyx/Dastanoyx/main/assets/metrics.isocalendar.svg" alt="Contribution calendar" />
-<img width="49%" src="https://raw.githubusercontent.com/Dastanoyx/Dastanoyx/main/assets/metrics.lines.svg" alt="Lines of code and people" />
+<img width="82%" src="https://raw.githubusercontent.com/Dastanoyx/Dastanoyx/main/assets/metrics.isocalendar.svg" alt="Contribution calendar" />
+
+<br/><br/>
+
+<details>
+<summary><b>📈 More numbers — code volume, followers, people I follow</b></summary>
+<br/>
+<img width="82%" src="https://raw.githubusercontent.com/Dastanoyx/Dastanoyx/main/assets/metrics.lines.svg" alt="Lines of code and people" />
+</details>
 
 </div>
 
