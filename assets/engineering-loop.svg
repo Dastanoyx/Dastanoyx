@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 530" width="1100" height="530" role="img" aria-label="My engineering loop and a measured optimization">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D1117"/><stop offset="100%" stop-color="#10151C"/>
+    </linearGradient>
+    <linearGradient id="rail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5382A1"/><stop offset="55%" stop-color="#F89820"/><stop offset="100%" stop-color="#E76F00"/>
+    </linearGradient>
+    <linearGradient id="slow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F85149"/><stop offset="100%" stop-color="#DA3633"/>
+    </linearGradient>
+    <linearGradient id="fast" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3FB950"/><stop offset="100%" stop-color="#2EA043"/>
+    </linearGradient>
+    <filter id="g2" x="-70%" y="-70%" width="240%" height="240%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .lbl  { font-family: ui-sans-serif,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; }
+      .mono { font-family: ui-monospace,SFMono-Regular,"JetBrains Mono",Consolas,monospace; }
+      .h1   { fill:#F0F6FC; font-size:23px; font-weight:700; }
+      .h2   { fill:#F0F6FC; font-size:16px; font-weight:650; }
+      .sub  { fill:#8B949E; font-size:13px; }
+      .step { fill:#F0F6FC; font-size:14px; font-weight:650; }
+      .hint { fill:#8B949E; font-size:11.5px; }
+      .num  { fill:#0D1117; font-size:15px; font-weight:800; }
+      .tag  { fill:#6E7681; font-size:10px; letter-spacing:1.4px; }
+      .ring { fill:none; stroke:#21262D; stroke-width:2; }
+      .arc  { fill:none; stroke:url(#rail); stroke-width:3.4; stroke-linecap:round;
+              stroke-dasharray:150 793; animation:spin 7s linear infinite; }
+      @keyframes spin { to { stroke-dashoffset:-943; } }
+      @keyframes fade { 0%,42%{opacity:0} 52%,100%{opacity:1} }
+      @keyframes fadeout { 0%,42%{opacity:1} 52%,100%{opacity:0} }
+      .after  { animation:fade 6s ease-in-out infinite; }
+      .before { animation:fadeout 6s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <rect width="1100" height="530" fill="url(#bg2)"/>
+  <rect x="0" y="0" width="1100" height="4" fill="url(#rail)"/>
+
+  <text x="40" y="46" class="lbl h1">Make it work, then make it right, then make it fast</text>
+  <text x="40" y="68" class="lbl sub">Not a slogan — an order of operations. Correctness first, clarity second, speed last and measured.</text>
+
+  <!-- ══════════ THE LOOP ══════════ -->
+  <g>
+    <circle cx="290" cy="285" r="150" class="ring"/>
+    <circle cx="290" cy="285" r="150" class="arc"/>
+
+    <!-- orbiting head -->
+    <circle r="7" fill="#F89820" filter="url(#g2)">
+      <animateMotion dur="7s" repeatCount="indefinite"
+        path="M290,135 A150,150 0 1,1 290,435 A150,150 0 1,1 290,135"/>
+    </circle>
+
+    <text x="290" y="278" text-anchor="middle" class="mono tag">THE LOOP</text>
+    <text x="290" y="302" text-anchor="middle" class="lbl h2">never actually ends</text>
+
+    <!-- nodes -->
+    <g>
+      <circle cx="290" cy="135" r="26" fill="#5382A1"/><text x="290" y="141" text-anchor="middle" class="mono num">1</text>
+      <text x="290" y="82" text-anchor="middle" class="lbl step">Ask why</text>
+      <text x="290" y="99" text-anchor="middle" class="lbl hint">until the real problem shows up</text>
+    </g>
+    <g>
+      <circle cx="420" cy="210" r="26" fill="#5382A1"/><text x="420" y="216" text-anchor="middle" class="mono num">2</text>
+      <text x="466" y="200" class="lbl step">Design</text>
+      <text x="466" y="217" class="lbl hint">boundaries, contracts, failure modes</text>
+    </g>
+    <g>
+      <circle cx="420" cy="360" r="26" fill="#F89820"/><text x="420" y="366" text-anchor="middle" class="mono num">3</text>
+      <text x="466" y="350" class="lbl step">Make it work</text>
+      <text x="466" y="367" class="lbl hint">simplest thing that passes the test</text>
+    </g>
+    <g>
+      <circle cx="290" cy="435" r="26" fill="#F89820"/><text x="290" y="441" text-anchor="middle" class="mono num">4</text>
+      <text x="290" y="483" text-anchor="middle" class="lbl step">Make it right</text>
+      <text x="290" y="500" text-anchor="middle" class="lbl hint">names, tests, seams, deleted code</text>
+    </g>
+    <g>
+      <circle cx="160" cy="360" r="26" fill="#E76F00"/><text x="160" y="366" text-anchor="middle" class="mono num">5</text>
+      <text x="114" y="350" text-anchor="end" class="lbl step">Make it fast</text>
+      <text x="114" y="367" text-anchor="end" class="lbl hint">profile first, then indexes and cache</text>
+    </g>
+    <g>
+      <circle cx="160" cy="210" r="26" fill="#E76F00"/><text x="160" y="216" text-anchor="middle" class="mono num">6</text>
+      <text x="114" y="200" text-anchor="end" class="lbl step">Ship + observe</text>
+      <text x="114" y="217" text-anchor="end" class="lbl hint">metrics prove it, or it did not happen</text>
+    </g>
+  </g>
+
+  <!-- ══════════ MEASURED RESULT ══════════ -->
+  <g>
+    <rect x="600" y="100" width="460" height="380" rx="12" fill="#161B22" stroke="#30363D"/>
+    <text x="628" y="134" class="mono tag">WHAT THAT LOOP ACTUALLY BUYS</text>
+    <text x="628" y="162" class="lbl h2">One endpoint, one week, measured both ways</text>
+
+    <!-- p95 latency -->
+    <text x="628" y="212" class="lbl hint">p95 latency</text>
+    <rect x="628" y="222" width="404" height="22" rx="6" fill="#0D1117" stroke="#21262D"/>
+    <rect x="630" y="224" height="18" rx="5" fill="url(#slow)">
+      <animate attributeName="width" values="400;400;22;22" keyTimes="0;0.42;0.62;1" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="fill" values="#F85149;#F85149;#3FB950;#3FB950" keyTimes="0;0.42;0.62;1" dur="6s" repeatCount="indefinite"/>
+    </rect>
+    <text x="1032" y="212" text-anchor="end" class="mono step before" fill="#F85149">2,410 ms</text>
+    <text x="1032" y="212" text-anchor="end" class="mono step after" fill="#3FB950">118 ms</text>
+
+    <!-- db queries -->
+    <text x="628" y="286" class="lbl hint">DB round-trips per request</text>
+    <rect x="628" y="296" width="404" height="22" rx="6" fill="#0D1117" stroke="#21262D"/>
+    <rect x="630" y="298" height="18" rx="5" fill="#F85149">
+      <animate attributeName="width" values="352;352;14;14" keyTimes="0;0.42;0.62;1" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="fill" values="#F85149;#F85149;#3FB950;#3FB950" keyTimes="0;0.42;0.62;1" dur="6s" repeatCount="indefinite"/>
+    </rect>
+    <text x="1032" y="286" text-anchor="end" class="mono step before" fill="#F85149">318  (N+1)</text>
+    <text x="1032" y="286" text-anchor="end" class="mono step after" fill="#3FB950">6</text>
+
+    <!-- throughput -->
+    <text x="628" y="360" class="lbl hint">sustained throughput</text>
+    <rect x="628" y="370" width="404" height="22" rx="6" fill="#0D1117" stroke="#21262D"/>
+    <rect x="630" y="372" height="18" rx="5" fill="url(#fast)">
+      <animate attributeName="width" values="46;46;390;390" keyTimes="0;0.42;0.62;1" dur="6s" repeatCount="indefinite"/>
+    </rect>
+    <text x="1032" y="360" text-anchor="end" class="mono step before" fill="#8B949E">180 rps</text>
+    <text x="1032" y="360" text-anchor="end" class="mono step after" fill="#3FB950">4,200 rps</text>
+
+    <line x1="628" y1="418" x2="1032" y2="418" stroke="#21262D"/>
+    <text x="628" y="446" class="mono hint">no rewrite · no new infra</text>
+    <text x="628" y="464" class="mono hint" fill="#F89820">just profiling, batching, an index and a cache that expires honestly</text>
+  </g>
+</svg>

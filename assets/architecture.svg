@@ -1,0 +1,236 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 700" width="1100" height="700" role="img" aria-label="Event-driven fintech architecture diagram">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="55%" stop-color="#0E1420"/>
+      <stop offset="100%" stop-color="#10151C"/>
+    </linearGradient>
+    <linearGradient id="javaGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5382A1"/>
+      <stop offset="50%" stop-color="#F89820"/>
+      <stop offset="100%" stop-color="#E76F00"/>
+    </linearGradient>
+    <linearGradient id="kafkaGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5382A1" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#007396" stop-opacity="0.15"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .lbl   { font-family: ui-sans-serif,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; }
+      .mono  { font-family: ui-monospace,SFMono-Regular,"JetBrains Mono",Consolas,monospace; }
+      .title { fill:#F0F6FC; font-size:23px; font-weight:700; }
+      .sub   { fill:#8B949E; font-size:13px; }
+      .name  { fill:#F0F6FC; font-size:14.5px; font-weight:650; }
+      .meta  { fill:#8B949E; font-size:11px; }
+      .tag   { fill:#6E7681; font-size:10px; letter-spacing:1.4px; }
+      .card  { fill:#161B22; stroke-width:1.6; rx:10; }
+      .flow  { fill:none; stroke-width:1.9; stroke-linecap:round; stroke-linejoin:round;
+               stroke-dasharray:7 9; animation:dash 1.4s linear infinite; }
+      .flow-slow { animation-duration:2.6s; }
+      .tele  { fill:none; stroke:#A371F7; stroke-width:1.3; stroke-opacity:.55;
+               stroke-dasharray:2 7; stroke-linejoin:round;
+               animation:dash 2.4s linear infinite reverse; }
+      @keyframes dash { to { stroke-dashoffset:-32; } }
+      @keyframes breathe { 0%,100%{opacity:.30} 50%{opacity:.85} }
+      .pulse { animation:breathe 3.2s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <rect width="1100" height="700" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1100" height="4" fill="url(#javaGrad)"/>
+
+  <text x="40" y="46" class="lbl title">Event-Driven Fintech Platform</text>
+  <text x="40" y="68" class="lbl sub">The shape of almost every system I build — small services, one event backbone, nothing that fails alone.</text>
+
+  <!-- ─────────── EDGES (drawn under the cards) ─────────── -->
+  <g>
+    <!-- client -> gateway -->
+    <path class="flow" d="M170,290 H205" stroke="#5382A1"/>
+    <!-- gateway -> services -->
+    <path class="flow" d="M345,290 C370,290 368,178 390,178" stroke="#5382A1"/>
+    <path class="flow" d="M345,290 H390" stroke="#5382A1"/>
+    <path class="flow" d="M345,290 C370,290 368,418 390,418" stroke="#5382A1"/>
+    <!-- services -> kafka -->
+    <path class="flow" d="M550,178 C575,178 578,200 595,215" stroke="#F89820"/>
+    <path class="flow" d="M550,298 H595" stroke="#F89820"/>
+    <path class="flow" d="M550,418 C575,418 578,396 595,382" stroke="#F89820"/>
+    <!-- kafka -> consumers -->
+    <path class="flow" d="M665,215 C685,200 690,178 710,178" stroke="#E76F00"/>
+    <path class="flow" d="M665,298 H710" stroke="#E76F00"/>
+    <path class="flow" d="M665,382 C685,396 690,408 710,408" stroke="#E76F00"/>
+    <!-- persistence -->
+    <path class="flow flow-slow" d="M410,215 V236 H367 V500 H320 V545" stroke="#3FB950"/>
+    <path class="flow flow-slow" d="M530,335 V352 H572 V515 H500 V545" stroke="#3FB950"/>
+    <path class="flow flow-slow" d="M520,455 V530 H755 V545" stroke="#3FB950"/>
+    <path class="flow flow-slow" d="M760,215 V535 H580 V545" stroke="#3FB950"/>
+    <path class="flow flow-slow" d="M800,445 V545" stroke="#3FB950"/>
+    <!-- telemetry rail -->
+    <path class="tele" d="M275,240 V95 H1000 V250"/>
+    <path class="tele" d="M470,140 V95"/>
+    <path class="tele" d="M630,140 V95"/>
+    <path class="tele" d="M870,177 C888,177 892,210 900,268"/>
+    <path class="tele" d="M870,298 H900"/>
+    <path class="tele" d="M870,408 C888,408 892,388 900,372"/>
+  </g>
+
+  <!-- ─────────── MOVING PACKETS ─────────── -->
+  <g>
+    <circle r="4.5" fill="#5382A1" filter="url(#glow)">
+      <animateMotion dur="2.4s" repeatCount="indefinite" path="M170,290 H205"/>
+    </circle>
+    <circle r="4.5" fill="#F89820" filter="url(#glow)">
+      <animateMotion dur="3.4s" repeatCount="indefinite" begin="0.2s"
+        path="M345,290 C370,290 368,178 390,178 M550,178 C575,178 578,200 595,215"/>
+    </circle>
+    <circle r="4.5" fill="#F89820" filter="url(#glow)">
+      <animateMotion dur="3.4s" repeatCount="indefinite" begin="1.4s" path="M345,290 H390 M550,298 H595"/>
+    </circle>
+    <circle r="4.5" fill="#E76F00" filter="url(#glow)">
+      <animateMotion dur="2.8s" repeatCount="indefinite" begin="0.6s" path="M665,215 C685,200 690,178 710,178"/>
+    </circle>
+    <circle r="4.5" fill="#E76F00" filter="url(#glow)">
+      <animateMotion dur="2.8s" repeatCount="indefinite" begin="1.6s" path="M665,298 H710"/>
+    </circle>
+    <circle r="4.5" fill="#E76F00" filter="url(#glow)">
+      <animateMotion dur="2.8s" repeatCount="indefinite" begin="2.2s" path="M665,382 C685,396 690,408 710,408"/>
+    </circle>
+    <circle r="3.8" fill="#3FB950" opacity=".9">
+      <animateMotion dur="4.6s" repeatCount="indefinite" path="M410,215 V236 H367 V500 H320 V545"/>
+    </circle>
+    <circle r="3.8" fill="#3FB950" opacity=".9">
+      <animateMotion dur="4.6s" repeatCount="indefinite" begin="1.8s" path="M530,335 V352 H572 V515 H500 V545"/>
+    </circle>
+  </g>
+
+  <!-- ─────────── CLIENT ─────────── -->
+  <g>
+    <rect class="card" x="30" y="250" width="140" height="80" fill="#161B22" stroke="#30363D"/>
+    <rect x="30" y="250" width="4" height="80" rx="2" fill="#5382A1"/>
+    <text x="48" y="278" class="lbl name">Clients</text>
+    <text x="48" y="297" class="mono meta">Angular SPA</text>
+    <text x="48" y="313" class="mono meta">Mobile / Partner API</text>
+  </g>
+
+  <!-- ─────────── GATEWAY ─────────── -->
+  <g>
+    <rect class="card" x="205" y="240" width="140" height="100" fill="#161B22" stroke="#5382A1" stroke-opacity=".7"/>
+    <rect x="205" y="240" width="4" height="100" rx="2" fill="#5382A1"/>
+    <text x="223" y="268" class="lbl name">API Gateway</text>
+    <text x="223" y="288" class="mono meta">JWT auth</text>
+    <text x="223" y="304" class="mono meta">rate limiting</text>
+    <text x="223" y="320" class="mono meta">routing + retries</text>
+  </g>
+
+  <!-- ─────────── SERVICES ─────────── -->
+  <g>
+    <text x="390" y="122" class="mono tag">SPRING BOOT SERVICES</text>
+
+    <rect class="card" x="390" y="140" width="160" height="75" fill="#161B22" stroke="#F89820" stroke-opacity=".55"/>
+    <rect x="390" y="140" width="4" height="75" rx="2" fill="#F89820"/>
+    <circle cx="536" cy="156" r="4" fill="#3FB950" class="pulse"/>
+    <text x="408" y="168" class="lbl name">Payments</text>
+    <text x="408" y="188" class="mono meta">idempotent · retryable</text>
+    <text x="408" y="204" class="mono meta">outbox pattern</text>
+
+    <rect class="card" x="390" y="260" width="160" height="75" fill="#161B22" stroke="#F89820" stroke-opacity=".55"/>
+    <rect x="390" y="260" width="4" height="75" rx="2" fill="#F89820"/>
+    <circle cx="536" cy="276" r="4" fill="#3FB950" class="pulse"/>
+    <text x="408" y="288" class="lbl name">Accounts</text>
+    <text x="408" y="308" class="mono meta">balances · limits</text>
+    <text x="408" y="324" class="mono meta">optimistic locking</text>
+
+    <rect class="card" x="390" y="380" width="160" height="75" fill="#161B22" stroke="#F89820" stroke-opacity=".55"/>
+    <rect x="390" y="380" width="4" height="75" rx="2" fill="#F89820"/>
+    <circle cx="536" cy="396" r="4" fill="#3FB950" class="pulse"/>
+    <text x="408" y="408" class="lbl name">Onboarding / KYC</text>
+    <text x="408" y="428" class="mono meta">state machine</text>
+    <text x="408" y="444" class="mono meta">async verification</text>
+  </g>
+
+  <!-- ─────────── KAFKA ─────────── -->
+  <g>
+    <rect class="card" x="595" y="140" width="70" height="340" fill="url(#kafkaGrad)" stroke="#5382A1" stroke-opacity=".7"/>
+    <text transform="translate(627,400) rotate(-90)" class="lbl name" text-anchor="start">APACHE KAFKA</text>
+    <text transform="translate(645,400) rotate(-90)" class="mono meta" text-anchor="start">event backbone</text>
+    <g opacity=".75">
+      <rect x="612" y="160" width="36" height="3" rx="1.5" fill="#5382A1">
+        <animate attributeName="y" values="160;462;160" dur="4.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" dur="4.5s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="612" y="160" width="36" height="3" rx="1.5" fill="#F89820">
+        <animate attributeName="y" values="160;462;160" dur="4.5s" begin="1.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" dur="4.5s" begin="1.5s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="612" y="160" width="36" height="3" rx="1.5" fill="#E76F00">
+        <animate attributeName="y" values="160;462;160" dur="4.5s" begin="3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" dur="4.5s" begin="3s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+
+  <!-- ─────────── CONSUMERS ─────────── -->
+  <g>
+    <text x="710" y="122" class="mono tag">EVENT CONSUMERS</text>
+
+    <rect class="card" x="710" y="140" width="160" height="75" fill="#161B22" stroke="#E76F00" stroke-opacity=".55"/>
+    <rect x="710" y="140" width="4" height="75" rx="2" fill="#E76F00"/>
+    <text x="728" y="168" class="lbl name">Ledger</text>
+    <text x="728" y="188" class="mono meta">double-entry</text>
+    <text x="728" y="204" class="mono meta">append-only</text>
+
+    <rect class="card" x="710" y="260" width="160" height="75" fill="#161B22" stroke="#E76F00" stroke-opacity=".55"/>
+    <rect x="710" y="260" width="4" height="75" rx="2" fill="#E76F00"/>
+    <text x="728" y="288" class="lbl name">Fraud Scoring</text>
+    <text x="728" y="308" class="mono meta">rules + ML model</text>
+    <text x="728" y="324" class="mono meta">sub-100ms budget</text>
+
+    <rect class="card" x="710" y="370" width="160" height="75" fill="#161B22" stroke="#E76F00" stroke-opacity=".55"/>
+    <rect x="710" y="370" width="4" height="75" rx="2" fill="#E76F00"/>
+    <text x="728" y="398" class="lbl name">Notifications</text>
+    <text x="728" y="418" class="mono meta">email · SMS · push</text>
+    <text x="728" y="434" class="mono meta">at-least-once</text>
+  </g>
+
+  <!-- ─────────── OBSERVABILITY ─────────── -->
+  <g>
+    <rect class="card" x="900" y="250" width="170" height="140" fill="#161B22" stroke="#A371F7" stroke-opacity=".5"/>
+    <rect x="900" y="250" width="4" height="140" rx="2" fill="#A371F7"/>
+    <text x="918" y="278" class="lbl name">Observability</text>
+    <text x="918" y="300" class="mono meta">structured logs</text>
+    <text x="918" y="318" class="mono meta">distributed traces</text>
+    <text x="918" y="336" class="mono meta">RED / USE metrics</text>
+    <text x="918" y="354" class="mono meta">alerts on SLOs</text>
+    <text x="918" y="376" class="mono meta" fill="#A371F7">if I cannot see it,</text>
+    <text x="918" y="390" class="mono meta" fill="#A371F7">I did not ship it</text>
+  </g>
+
+  <!-- ─────────── DATA STORES ─────────── -->
+  <g>
+    <text x="250" y="536" class="mono tag">PERSISTENCE</text>
+
+    <rect class="card" x="250" y="545" width="140" height="60" fill="#161B22" stroke="#3FB950" stroke-opacity=".45"/>
+    <text x="268" y="571" class="lbl name">Redis</text>
+    <text x="268" y="589" class="mono meta">cache · idempotency keys</text>
+
+    <rect class="card" x="440" y="545" width="180" height="60" fill="#161B22" stroke="#3FB950" stroke-opacity=".45"/>
+    <text x="458" y="571" class="lbl name">PostgreSQL</text>
+    <text x="458" y="589" class="mono meta">ACID · partitioned · indexed</text>
+
+    <rect class="card" x="680" y="545" width="150" height="60" fill="#161B22" stroke="#3FB950" stroke-opacity=".45"/>
+    <text x="698" y="571" class="lbl name">MongoDB</text>
+    <text x="698" y="589" class="mono meta">documents · audit trail</text>
+  </g>
+
+  <!-- ─────────── LEGEND ─────────── -->
+  <g transform="translate(40,650)">
+    <circle cx="6" cy="-4" r="5" fill="#5382A1"/><text x="18" y="0" class="mono meta">sync request</text>
+    <circle cx="126" cy="-4" r="5" fill="#F89820"/><text x="138" y="0" class="mono meta">event published</text>
+    <circle cx="266" cy="-4" r="5" fill="#E76F00"/><text x="278" y="0" class="mono meta">event consumed</text>
+    <circle cx="406" cy="-4" r="5" fill="#3FB950"/><text x="418" y="0" class="mono meta">persistence</text>
+    <circle cx="526" cy="-4" r="5" fill="#A371F7"/><text x="538" y="0" class="mono meta">telemetry</text>
+    <text x="900" y="0" class="mono meta" fill="#6E7681">Yassin Ghariani</text>
+  </g>
+</svg>

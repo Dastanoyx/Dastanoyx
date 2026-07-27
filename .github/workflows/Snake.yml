@@ -1,6 +1,3 @@
-# Save this file at: .github/workflows/snake.yml  (in your Dastanoyx/Dastanoyx repo)
-# It generates the contribution-snake SVGs into an "output" branch every 12 hours.
-
 name: Generate Snake Animation
 
 on:
