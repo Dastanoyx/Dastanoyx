@@ -21,23 +21,21 @@
 
 <!-- ═══════════════════════════════ ABOUT ═══════════════════════════════ -->
 
-## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="28"> &nbsp;`whoami`
+## ☕ &nbsp;`whoami`
 
-<img align="right" alt="coding" width="380" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" />
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Dastanoyx/Dastanoyx/main/assets/javaboy-desk.svg" width="100%" alt="JavaBoy boot sequence" />
+</div>
 
 ```java
 @Component
 @Slf4j
 public class Yassin extends JavaBoy implements SoftwareEngineer {
 
-    private static final String ALIAS    = "JavaBoy ☕";
-    private static final String ROLE     = "Backend Engineer";
-    private static final String DOMAIN   = "Fintech 🏦";
-    private static final String LOCATION = "Tunisia 🇹🇳";
-    private static final String MOTTO    = "Build. Learn. Share. Repeat.";
+    private static final String MOTTO = "Build. Learn. Share. Repeat.";
 
     private final Stack<String> weapons = new Stack<>(List.of(
-        "Java", "Spring Boot", "Kafka", "PostgreSQL", "Docker", "K8s"
+            "Java", "Spring Boot", "Kafka", "PostgreSQL", "Docker", "K8s"
     ));
 
     @Override
@@ -56,8 +54,6 @@ public class Yassin extends JavaBoy implements SoftwareEngineer {
     }
 }
 ```
-
-<br clear="right"/>
 
 > I'm a backend engineer who turns messy, complex problems into systems that are **fast, safe and boring to operate** — the highest compliment infrastructure can receive.
 > I live at the intersection of **clean code**, **smart design** and **relentless optimization**, and I'm obsessed with the *why* behind every line.

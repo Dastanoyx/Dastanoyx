@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 500" width="1100" height="500" role="img" aria-label="JavaBoy terminal boot sequence">
+  <defs>
+    <linearGradient id="rail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#007396"/><stop offset="40%" stop-color="#5382A1"/>
+      <stop offset="78%" stop-color="#F89820"/><stop offset="100%" stop-color="#E76F00"/>
+    </linearGradient>
+    <linearGradient id="chrome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#22272E"/><stop offset="100%" stop-color="#171C23"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0" r="0.9">
+      <stop offset="0%" stop-color="#F89820" stop-opacity="0.13"/>
+      <stop offset="100%" stop-color="#F89820" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1.2" fill="#FFFFFF" opacity="0.022"/>
+    </pattern>
+    <clipPath id="screen"><rect x="30" y="66" width="1040" height="410" rx="4"/></clipPath>
+    <style>
+      .m { font-family: ui-monospace,SFMono-Regular,"JetBrains Mono",Consolas,monospace; }
+    </style>
+  </defs>
+
+  <rect width="1100" height="500" fill="#010409"/>
+  <rect x="30" y="16" width="1040" height="464" rx="14" fill="#0D1117" stroke="#30363D" stroke-width="1.6"/>
+  <path d="M30,30 a14,14 0 0 1 14,-14 h1012 a14,14 0 0 1 14,14 v36 h-1040 z" fill="url(#chrome)"/>
+  <line x1="30" y1="66" x2="1070" y2="66" stroke="#30363D"/>
+  <circle cx="58" cy="41" r="6.5" fill="#F85149"/>
+  <circle cx="80" cy="41" r="6.5" fill="#F0B429"/>
+  <circle cx="102" cy="41" r="6.5" fill="#3FB950"/>
+  <text x="550" y="46" text-anchor="middle" class="m" fill="#8B949E" font-size="13">yassin@javaboy — zsh — 120×34</text>
+  <rect x="30" y="66" width="1040" height="180" fill="url(#glow)"/>
+
+  <g clip-path="url(#screen)">
+    <text x="62" y="96" class="m" font-size="14" xml:space="preserve" opacity="0">
+<tspan fill="#3FB950">$ </tspan>
+<tspan fill="#E6EDF3">whoami</tspan>
+<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.0423;0.0592;0.9;1" dur="13.0s" repeatCount="indefinite"/></text>
+    <text x="62" y="117" class="m" font-size="14" xml:space="preserve" opacity="0">
+<tspan fill="#F89820">yassin</tspan>
+<tspan fill="#C9D1D9"> · JavaBoy · backend engineer @ fintech · tunisia</tspan>
+<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.0746;0.0915;0.9;1" dur="13.0s" repeatCount="indefinite"/></text>
+    <text x="62" y="159" class="m" font-size="14" xml:space="preserve" opacity="0">
+<tspan fill="#3FB950">$ </tspan>
+<tspan fill="#E6EDF3">java -jar </tspan>
+<tspan fill="#F89820">javaboy.jar</tspan>
+<tspan fill="#E6EDF3"> --profile=production</tspan>
+<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.1069;0.1238;0.9;1" dur="13.0s" repeatCount="indefinite"/></text>
+    <text x="62" y="201" class="m" font-size="14" xml:space="preserve" opacity="0">
+<tspan fill="#F89820">    ████    ████    ██    ██    ████    ██████      ████    ██    ██</tspan>
+<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.1392;0.1562;0.9;1" dur="13.0s" repeatCount="indefinite"/></text>
+    <text x="62" y="222" class="m" font-size="14" xml:space="preserve" opacity="0">
+<tspan fill="#F89820">      ██  ██    ██  ██    ██  ██    ██  ██    ██  ██    ██  ██    ██</tspan>
+<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.1715;0.1885;0.9;1" dur="13.0s" repeatCount="indefinite"/></text>
+    <text x="62" y="243" class="m" font-size="14" xml:space="preserve" opacity="0">
+<tspan fill="#F89820">      ██  ████████  ██    ██  ████████  ██████    ██    ██    ████</tspan>
+<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.2038;0.2208;0.9;1" dur="13.0s" repeatCount="indefinite"/></text>
+    <text x="62" y="264" class="m" font-size="14" xml:space="preserve" opacity="0">
+<tspan fill="#F89820">██    ██  ██    ██  ██    ██  ██    ██  ██    ██  ██    ██      ██</tspan>
+<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.2362;0.2531;0.9;1" dur="13.0s" repeatCount="indefinite"/></text>
+    <text x="62" y="285" class="m" font-size="14" xml:space="preserve" opacity="0">
+<tspan fill="#F89820">  ████    ██    ██    ████    ██    ██  ██████      ████        ██</tspan>
+<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.2685;0.2854;0.9;1" dur="13.0s" repeatCount="indefinite"/></text>
+    <text x="62" y="306" class="m" font-size="14" xml:space="preserve" opacity="0">
+<tspan fill="#6E7681">:: JavaBoy ::</tspan>
+<tspan fill="#6E7681">        (v2026.7 · JDK 21 · Spring Boot 3.5)</tspan>
+<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.3008;0.3177;0.9;1" dur="13.0s" repeatCount="indefinite"/></text>
+    <text x="62" y="348" class="m" font-size="14" xml:space="preserve" opacity="0">
+<tspan fill="#58A6FF">INFO</tspan>
+<tspan fill="#6E7681"> --- </tspan>
+<tspan fill="#C9D1D9">Starting JavaBoyApplication on </tspan>
+<tspan fill="#F89820">tunisia-dev</tspan>
+<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.3331;0.35;0.9;1" dur="13.0s" repeatCount="indefinite"/></text>
+    <text x="62" y="369" class="m" font-size="14" xml:space="preserve" opacity="0">
+<tspan fill="#58A6FF">INFO</tspan>
+<tspan fill="#6E7681"> --- </tspan>
+<tspan fill="#C9D1D9">Loading beans: </tspan>
+<tspan fill="#F89820">java, spring-boot, kafka, postgres, docker, k8s</tspan>
+<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.3654;0.3823;0.9;1" dur="13.0s" repeatCount="indefinite"/></text>
+    <text x="62" y="390" class="m" font-size="14" xml:space="preserve" opacity="0">
+<tspan fill="#58A6FF">INFO</tspan>
+<tspan fill="#6E7681"> --- </tspan>
+<tspan fill="#C9D1D9">Coffee pool initialized </tspan>
+<tspan fill="#A371F7">(size: unbounded)</tspan>
+<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.3977;0.4146;0.9;1" dur="13.0s" repeatCount="indefinite"/></text>
+    <text x="62" y="411" class="m" font-size="14" xml:space="preserve" opacity="0">
+<tspan fill="#58A6FF">INFO</tspan>
+<tspan fill="#6E7681"> --- </tspan>
+<tspan fill="#C9D1D9">Tomcat started on port(s): </tspan>
+<tspan fill="#F89820">8080 (http)</tspan>
+<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.43;0.4469;0.9;1" dur="13.0s" repeatCount="indefinite"/></text>
+    <text x="62" y="432" class="m" font-size="14" xml:space="preserve" opacity="0">
+<tspan fill="#58A6FF">INFO</tspan>
+<tspan fill="#6E7681"> --- </tspan>
+<tspan fill="#C9D1D9">Started JavaBoyApplication in </tspan>
+<tspan fill="#3FB950">0.42s</tspan>
+<tspan fill="#3FB950">  ✔</tspan>
+<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.4623;0.4792;0.9;1" dur="13.0s" repeatCount="indefinite"/></text>
+    <text x="62" y="474" class="m" font-size="14" xml:space="preserve" opacity="0">
+<tspan fill="#3FB950">$ </tspan>
+<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.4946;0.5115;0.9;1" dur="13.0s" repeatCount="indefinite"/></text>
+    <rect x="79" y="462" width="9" height="16" fill="#F89820" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;1;0;1;0"
+        keyTimes="0;0.4946;0.5177;0.5562;0.5946;0.6331;0.6715;1"
+        dur="13.0s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <rect x="30" y="66" width="1040" height="410" fill="url(#scan)"/>
+</svg>
